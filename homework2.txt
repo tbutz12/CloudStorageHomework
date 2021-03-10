@@ -2,8 +2,8 @@ import boto3
 import csv
 
 s3 = boto3.resource('s3',
- aws_access_key_id='AKIA2NLU2T7NEIKJRH76',
- aws_secret_access_key='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'
+ aws_access_key_id='A',
+ aws_secret_access_key='B'
 )
 try:
     s3.create_bucket(Bucket='datacont-tristin-butz', CreateBucketConfiguration={
